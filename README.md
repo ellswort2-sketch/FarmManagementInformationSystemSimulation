@@ -2,10 +2,6 @@
 
 A self-contained teaching activity inspired by farmOS recordkeeping concepts. This is an independent educational prototype, not a farmOS installation or a replica of its interface. It has no connection to a farmOS server.
 
-## Start here
-
-Extract this ZIP and open `index.html` in a current browser to try it. The same file can be hosted on GitHub Pages. No libraries, external fonts, keys, build steps, or account setup are required for the application.
-
 ## Included learning workflow
 
 - Review simulated pistachio (22 acres) and garlic (2 acres) fields.
@@ -19,20 +15,6 @@ Extract this ZIP and open `index.html` in a current browser to try it. The same 
 - Restore a backup or clear a shared-computer workspace after saving work.
 
 The layout sketch is illustrative. It is not a geographic map, does not change with field edits, and does not display coordinates. Field and sample examples are invented for teaching. Editing a starter record preserves its example label; students should create their own records.
-
-## Publish in a NEW GitHub repository
-
-1. Create a repository with a name such as `farm-records-classroom`.
-2. Upload the extracted `index.html` and `README.md` at the repository root. Do not upload only the ZIP. The optional `.nojekyll` file can also be included.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and `/(root)` folder, then save.
-6. Wait for GitHub's deployment to finish. Open the published address shown in Pages settings.
-7. Test a sample record, reload the page, and download a report on a student Chromebook before assigning it. Share the published Pages address, rather than the repository's code view.
-
-For an existing website, avoid replacing its current homepage. Put this file in a new folder within the website's configured publishing source, or rename it to `farm-records.html`. Link to that page from the existing homepage. Keep the published address stable: browser storage belongs to the website origin, and this app uses one workspace per origin. Multiple copies on the same origin share that workspace.
-
-Official setup reference: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 ## How student work is stored
 
